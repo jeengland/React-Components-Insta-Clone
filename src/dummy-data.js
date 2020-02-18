@@ -1,8 +1,8 @@
 const dummyData = [
     {
         username: "philzcoffee",
-        thumbnailUrl: 'https://illustoon.com/photo/3813.png',
-        imageUrl: 'https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/s150x150/67248626_346350186304601_6715901285419188224_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_ohc=tPD-mCU0-e4AX-iqOFz&oh=3535ba4a867c0afc9c67d0e504760359&oe=5EF8E9C8',
+        thumbnailUrl: 'https://scontent-lax3-2.cdninstagram.com/v/t51.2885-19/s150x150/67248626_346350186304601_6715901285419188224_n.jpg?_nc_ht=scontent-lax3-2.cdninstagram.com&_nc_ohc=tPD-mCU0-e4AX-iqOFz&oh=3535ba4a867c0afc9c67d0e504760359&oe=5EF8E9C8',
+        imageUrl: 'https://cms.splendidtable.org/sites/default/files/styles/w2000/public/Ultimate-Breakfast-Sandwich-LEDE.jpg?itok=z0EP01nS',
         likes: 400,
         timestamp: "July 17th 2017, 12:42:40 pm",
         comments: [
