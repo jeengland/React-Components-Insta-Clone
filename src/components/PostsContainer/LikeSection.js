@@ -11,7 +11,7 @@ const LikeSection = props => {
       key="likes-icons-container"
     >
       <div className="like-section-wrapper">
-        <i className="far fa-heart" onClick={props.liker}/>
+        <i className="far fa-heart" onClick={props.liker} style={{color: props.heartColor}}/>
       </div>
       <div className="like-section-wrapper">
         <i className="far fa-comment" />

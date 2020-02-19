@@ -10,7 +10,15 @@ import "./Posts.css";
 const Post = props => {
   // set up state for the likes
   const [likes, setLikes] = useState(props.post.likes);
-  const liker = () => setLikes(likes + 1);
+  const [likeable, setLikable] = useState(true);
+  const [heartColor, setHeartColor] = useState('black');
+  const liker = () => {
+    if(likeable) {
+      setLikes(likes + 1);
+      setLikable(false);
+      setHeartColor('red');
+    }
+  }
   return (
     <div className="post-border">
       <PostHeader
@@ -26,7 +34,7 @@ const Post = props => {
           src={props.post.imageUrl}
         />
       </div>
-      <LikeSection likes={likes} liker={liker}/>
+      <LikeSection likes={likes} liker={liker} heartColor={heartColor}/>
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
